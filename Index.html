@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0b406a966a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+     <div class="container">
+        <nav>
+            <img src="Images/Final logo Ak.png" class="Logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li> 
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i> 
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Developer</p>
+            <h1>Hi, I'm <br><span>Ankit </span> Kumar</h1>
+        </div>
+       </div>
+</div>
+<!---------------about----------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/user foto.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Hello, I'm Ankit Kumar, hailing from the vibrant town of Aurangabad in Bihar. 
+                My educational journey began at Kendriya Vidyalaya, where I completed my secondary studies. 
+                <br>It was during this time that I discovered my unwavering passion for the intricate world of computers
+                and their inner workings.<br><br>Currently pursuing my educational journey at the Global
+                Institute of Technology and Management.<br> My academic pursuits are fueled by an unwavering 
+                passion for technology and a strong desire to become a software developer.<br>I thrive on the thrill of exploring new horizons in the world of development, 
+                constantly trying to seek innovative solutions and pushing the boundaries of what's possible.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skill">
+                    <ul>
+                        <li><span>Full Stack Developer</span><br>Developing Reactive Websites</li>
+                        <li><span>Web Designer</span><br>Designing Web Pages/sites </li>
+                        <li><span>App Developer</span><br>Developing Web Apps</li>
+                        <li><span>Android developer</span><br>Developing Android Apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019</span><br>Intermediate from Vivekanand High School at Vishnupath, Bihar(BSEB)</li>
+                        <li><span>2020</span><br>B.tech from Global Institute of Technology & Management</li>
+                        <li><span>2022</span><br>Java From Apna College(Online)</li>
+                        <li><span>2023</span><br>FullStack Development from Apna College(Online)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Portfolio</span><br>Made a portfolio Using HTML,CSS,JS</li>
+                        <li><span>Internship</span><br>XYZ</li>
+                        <li><span>Project</span><br>E-commerce Websites</li>
+                        <li><span>Major Project</span><br>XYZ</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------Services------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+           <div>
+              <i class="fa-solid fa-code fa-lg"></i>
+              <h2>Full Stack Developer</h2>
+              <p>When I'll work under any company then I'll add this section.</p>
+              <a href="#">Learn more</a>
+           </div> 
+           <div>
+            <i class="fa-regular fa-object-group fa-lg"></i>
+              <h2>Web Designer</h2>
+              <p>When I'll work under any company then I'll add this section.</p>
+              <a href="#">Learn more</a>
+           </div> 
+           <div>
+            <i class="fa-brands fa-app-store fa-lg"></i>
+              <h2>Android Developer</h2>
+              <p>When I'll work under any company then I'll add this section</p>
+              <a href="#">Learn more</a>
+           </div> 
+        </div>
+    </div>
+</div>
+<!--------------------Portfolio------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/portfolio sS1.png">
+                <div class="layer">
+                <h3>Personal Portfolio</h3>
+                <p>This is my personal portfolio that I made using HTML,CSS,JS.You can take a look</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work!!!!.jpg">
+                    <div class="layer">
+                    <h3>Metro App</h3>
+                    <p>This is an Android App, based on java, It is a FullStack App. You can check Metro Stations details here.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+            </div>
+            <div class="work">
+                <img src="Images/work3.png">
+                    <div class="layer">
+                    <h3>XYZ</h3>
+                    <p>When i make a FullStack app then I will Show it here. I will make an App of amazon clone App that will contain every possible feature.Will use HTML,CSS and JS</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+            </div>
+        </div>
+        <a href="#"class="btn">See More</a>
+    </div>
+</div>
+<!------------------Contact---------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1>
+               <p><i class="fa-solid fa-paper-plane"></i> akarya439@gmail.com</p>
+               <p><i class="fa-solid fa-square-phone"></i> 9337256322</p>
+               <div class="social-icon">
+                   <a href="https://www.facebook.com/ankit.arya.31105674?mibextid=ZbWKwL "><i class="fa-brands fa-facebook"></i></a>
+                   <a href="http://x.com/AnkitArya0807?t=d8fCG9Vc27XQXp8rdK6dw&s=09"><i class="fa-brands fa-twitter-square"></i></a>
+                   <a href="https://instagram.com/ankitarya432?igshid=YTQwZjQ0NmI0OA== "><i class="fa-brands fa-instagram"></i></a>
+                   <a href="https://www.linkedin.com/in/ankit-arya-488650202 "><i class="fa-brands fa-linkedin"></i></a>
+               </div>
+               <a href="Images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Sumbit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Ankit 2023 .<i class="fa-solid fa-heart"></i> Personal Portfolio</p>
+    </div>
+</div>
+
+
+<script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablinks of tablinks){
+            tablinks.classList.remove("active-link");
+        }
+        for(tabcontents of tabcontents){
+            tabcontents.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbySaO0CIdY0NrimoTPhelLzG5PBx3CFQ6NBWyMWQp27est8MZFDZ_qDJpZg9DjJE8PI/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTLM = ""
+            },5000)
+            form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+     
+</body>
+</html>
