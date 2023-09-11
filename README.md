@@ -3,6 +3,6 @@ Hello, I'm Ankit Kumar, hailing from the vibrant town of Aurangabad in Bihar. My
 Here Ipresent the Portfolio Websites made using HTML, CSS, JavaScript.
 It takes a big place in your creativity section at starting of the career when you are going to face Interviews.
 you can present the Portfolio to any interviewer and showcase your creativity
-Ankit Kumae
-9337256322
+Ankit Kumar
+@9337256322
 akarya439@gmail.com.
